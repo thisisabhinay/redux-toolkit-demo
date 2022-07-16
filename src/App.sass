@@ -1,1 +1,34 @@
 .App
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    padding: 3.33rem
+    gap: 3.33rem
+
+    .Counter
+        display: inline-flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        background: #FFF
+        border-radius: .67rem
+        box-shadow: 0 .17rem 0.33rem 0 rgba(23, 43, 77, 0.20)
+        transition: all 200ms ease-in-out
+        padding: 2rem
+        gap: 1rem
+
+        &:hover
+            box-shadow: 0 .17rem 0.33rem 0 rgba(23, 43, 77, 0.40)
+
+        .group
+            display: inline-flex
+            flex-direction: row
+            align-items: center
+            gap: 1rem
+
+        button
+            display: inline-flex
+            min-width: 2rem
+            cursor: pointer
+
